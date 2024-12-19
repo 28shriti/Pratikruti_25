@@ -17,7 +17,7 @@ const Footer = () => (
           <div className="locTitle font-bold pb-5 text-lg md:text-xl">Contact</div>
           <div className="locBody mt-2">
             Email: pratikruti2025@gmail.com <br />
-            Website: www.pratikruti.in
+            Website: <a href="http://www.pratikruti.in" target="_blank" rel="noopener noreferrer">www.pratikruti.in</a>
           </div>
         </div>
       </div>
