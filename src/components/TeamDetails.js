@@ -37,12 +37,12 @@ const TeamDetails = () => {
   ];
 
   return (
-    <div id="team-details" className="bg-gray-100 py-20">
+    <div id="team-details" className="bg-gray-100 py-8 md:py-20">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">Our Team</h2>
 
       {/* Patrons Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-8">Patrons</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Patrons</h3>
         <div className="flex flex-wrap justify-center gap-8">
           {patrons.map((patron, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
@@ -60,7 +60,7 @@ const TeamDetails = () => {
 
       {/* Organizers Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-8">Organizers & Project Coordinators</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Organizers & Project Coordinators</h3>
         <div className="flex flex-wrap justify-center gap-8">
           {organizers.map((organizer, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
@@ -78,7 +78,7 @@ const TeamDetails = () => {
 
       {/* Conveyors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-8">Conveyors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Conveyors</h3>
         <div className="flex flex-wrap justify-center gap-8">
           {conveyors.map((conveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
@@ -96,7 +96,7 @@ const TeamDetails = () => {
 
       {/* Technical Conveyors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-8">Technical Conveyors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Technical Conveyors</h3>
         <div className="flex flex-wrap justify-center gap-8">
           {technicalConveyors.map((technicalConveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
@@ -114,7 +114,7 @@ const TeamDetails = () => {
 
       {/* Co-Conveyors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-8">Co-Conveyors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Co-Conveyors</h3>
         <div className="flex flex-wrap justify-center gap-8">
           {coConveyors.map((coConveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">

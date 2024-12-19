@@ -7,17 +7,17 @@ const Footer = () => (
       <div className="flex flex-col md:flex-row justify-between items-center py-10 space-y-6 md:space-y-0">
         {/* Location Section */}
         <div className="venue text-sm md:text-base w-full md:w-1/2 lg:w-1/3 px-2">
-          <div className="venueTitle font-bold pb-5 text-lg md:text-xl">Location</div>
+          <div className="venueTitle font-bold pb-5 text-lg md:text-2xl">Location</div>
           <div className="venueBody mt-2">
-            YCCE, Nagpur, Maharashtra, India - 441110
+          <i className="fa-solid fa-location-dot"></i> YCCE, Nagpur, Maharashtra, India - 441 110
           </div>
         </div>
         {/* Contact Section */}
         <div className="contact text-sm md:text-base w-full md:w-1/2 lg:w-1/3 px-2">
-          <div className="locTitle font-bold pb-5 text-lg md:text-xl">Contact</div>
+          <div className="locTitle font-bold pb-5 text-lg md:text-2xl">Contact</div>
           <div className="locBody mt-2">
-            Email: pratikruti2025@gmail.com <br />
-            Website: <a href="http://www.pratikruti.in" target="_blank" rel="noopener noreferrer">www.pratikruti.in</a>
+          <i className="fa-solid fa-envelope"></i> Email: pratikruti2025@gmail.com <br />
+          <i className="fa-solid fa-globe"></i>  Website: <a href="http://www.pratikruti.in" target="_blank" rel="noopener noreferrer">www.pratikruti.in</a>
           </div>
         </div>
       </div>

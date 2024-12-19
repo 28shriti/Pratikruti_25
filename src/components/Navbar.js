@@ -7,12 +7,14 @@ const Navbar = () => {
   // Function to handle smooth scrolling
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop,
-        behavior: 'smooth',
-      });
-    }
+    const offset = 80; // Adjust this value as needed for spacing
+    const elementPosition = element.offsetTop;
+    const offsetPosition = elementPosition - offset;
+  
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
   };
 
   return (
