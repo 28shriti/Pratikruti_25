@@ -27,12 +27,12 @@ const Navbar = () => {
           <img
             src='logos/pratikrutiLogo.png'
             alt="Pratikruti-2025"
-            className="h-12 w-auto px-2"
+            className="h-12 w-auto pl-2"
           />
           <img
             src='logos/pratikruti.png'
             alt="Pratikruti-2025"
-            className="h-12 w-auto px-2"
+            className="h-12 w-auto pr-2"
           />
         </div>
         {/* Desktop Menu */}
@@ -43,12 +43,12 @@ const Navbar = () => {
           >
             Home
           </button>
-          {/* <button
+          <button
             className="hover:text-gray-300"
             onClick={() => scrollToSection('about')}
           >
             About
-          </button> */}
+          </button>
           <button
             className="hover:text-gray-300"
             onClick={() => scrollToSection('schedule')}
@@ -124,12 +124,12 @@ const Navbar = () => {
             >
               Home
             </button>
-            {/* <button
+            <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('about')}
             >
               About
-            </button> */}
+            </button>
             <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('schedule')}
