@@ -27,12 +27,12 @@ const Navbar = () => {
           <img
             src='logos/pratikrutiLogo.png'
             alt="Pratikruti-2025"
-            className="h-12 w-auto px-2"
+            className="h-12 w-auto pl-2"
           />
           <img
             src='logos/pratikruti.png'
             alt="Pratikruti-2025"
-            className="h-12 w-auto px-2"
+            className="h-12 w-auto pr-2"
           />
         </div>
         {/* Desktop Menu */}
