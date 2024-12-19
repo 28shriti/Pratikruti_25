@@ -8,7 +8,7 @@ const Schedule = () => {
   ];
 
   return (
-    <div id="schedule" className="bg-gray-100 py-20">
+    <div id="schedule" className="bg-gray-100 py-10">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-8">Important Dates</h2>
       <div className="max-w-4xl mx-auto ">
         <ul className="space-y-6">

@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Schedule from './components/Schedule';
 import Registration from './components/Registration';
 import TeamDetails from './components/TeamDetails';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (

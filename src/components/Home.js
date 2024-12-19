@@ -21,21 +21,21 @@ const Home = () => {
       style={{ backgroundImage: "url(/path-to-your-image.jpg)" }}
     >
       {/* Top Section: Three Logos */}
-      <div className=" w-full flex flex-row justify-around items-center space-y-4 md:space-y-0 md:space-x-6 mb-4 mt-24">
+      <div className=" w-full flex flex-row justify-around items-center space-y-4 md:space-y-0 md:space-x-6 mb-4 mt-20">
         <img src="/logos/ycceLogo.png" alt="YCCE Logo" className="w-24 h-24 md:w-52 md:h-52" />
         <img src="/logos/rubyJublieeCelebrationLogo.png" alt="Ruby Jubliee Celebration Logo" className="w-32 h-32 md:w-60 md:h-60" />
         <img src="/logos/megheGroupLogo.png" alt="Meghe Group Logo" className="w-24 h-24 md:w-52 md:h-52" />
       </div>
 
       {/* Single Line Text */}
-      <h1 className="text-xl md:text-4xl font-extrabold italic mb-6 text-center text-black">
+      <h1 className="text-xl md:text-4xl font-extrabold italic mb-2 md:-6 text-center text-black">
         Celebrating 40 Years of Excellence
       </h1>
 
       {/* Middle Section: Two Logos */}
-      <div className="flex flex-col items-center space-y-2 my-8">
+      <div className="flex flex-col items-center space-y-2 my-6">
         <img src="/logos/pratikrutiLogo.png" alt="Pratikruti Logo" className="w-48 h-48 md:w-72 md:h-72" />
-        <img src="/logos/pratikruti.png" alt="Pratikruti" className="w-60 h-24 md:w-96 md:h-36" />
+        <img src="/logos/pratikruti.png" alt="Pratikruti" className="w-72 h-24 md:w-96 md:h-36" />
       </div>
 
       {/* Bottom Section: Event Details */}
