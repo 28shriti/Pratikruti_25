@@ -17,53 +17,57 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-800 text-white fixed w-full z-10">
-      <div className="container mx-auto flex justify-between items-center py-4 px-4">
+      <div className="container mx-auto flex justify-between items-center py-4 px-2">
         {/* Navbar Title */}
         <div
           className="text-xl font-bold cursor-pointer"
           onClick={() => scrollToSection('home')}
         >
-          Pratikruti-2025
+          <img
+            src='logos/pratikruti.png'
+            alt="Pratikruti-2025"
+            className="h-12 w-auto px-2"
+          />
         </div>
-              {/* Desktop Menu */}
-      <div className="hidden md:flex justify-center space-x-8 py-2">
-        <button
-          className="hover:text-gray-300"
-          onClick={() => scrollToSection('home')}
-        >
-          Home
-        </button>
-        <button
-          className="hover:text-gray-300"
-          onClick={() => scrollToSection('about')}
-        >
-          About
-        </button>
-        <button
-          className="hover:text-gray-300"
-          onClick={() => scrollToSection('schedule')}
-        >
-          Schedule
-        </button>
-        <button
-          className="hover:text-gray-300"
-          onClick={() => scrollToSection('gallery')}
-        >
-          Gallery
-        </button>
-        <button
-          className="hover:text-gray-300"
-          onClick={() => scrollToSection('register')}
-        >
-          Registeration
-        </button>
-        <button
-          className="hover:text-gray-300"
-          onClick={() => scrollToSection('contact')}
-        >
-          Contact
-        </button>
-      </div>
+        {/* Desktop Menu */}
+        <div className="hidden md:flex justify-center space-x-8 py-2">
+          <button
+            className="hover:text-gray-300"
+            onClick={() => scrollToSection('home')}
+          >
+            Home
+          </button>
+          {/* <button
+            className="hover:text-gray-300"
+            onClick={() => scrollToSection('about')}
+          >
+            About
+          </button> */}
+          <button
+            className="hover:text-gray-300"
+            onClick={() => scrollToSection('schedule')}
+          >
+            Schedule
+          </button>
+          {/* <button
+            className="hover:text-gray-300"
+            onClick={() => scrollToSection('gallery')}
+          >
+            Gallery
+          </button> */}
+          <button
+            className="hover:text-gray-300"
+            onClick={() => scrollToSection('register')}
+          >
+            Registeration
+          </button>
+          <button
+            className="hover:text-gray-300"
+            onClick={() => scrollToSection('contact')}
+          >
+            Contact
+          </button>
+        </div>
         {/* Hamburger Button */}
         <div className="md:hidden">
           <button
@@ -114,24 +118,24 @@ const Navbar = () => {
             >
               Home
             </button>
-            <button
+            {/* <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('about')}
             >
               About
-            </button>
+            </button> */}
             <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('schedule')}
             >
               Schedule
             </button>
-            <button
+            {/* <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('gallery')}
             >
               Gallery
-            </button>
+            </button> */}
             <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('register')}
