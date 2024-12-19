@@ -32,8 +32,8 @@ const TeamDetails = () => {
     { name: 'Prof. Atul Lilhare (EL)', role: 'Co-Conveyor', image: 'coConveyors/atulLilhare.jpg' },
     { name: 'Prof. Nilesh U. Sambe (CT)', role: 'Co-Conveyor', image: 'coConveyors/nileshSambhe.jpg' },
     { name: 'Dr. Priyanka Jaiswal (IT)', role: 'Co-Conveyor', image: 'coConveyors/priyankaJaiswal.jpg' },
-    { name: 'Prof. Abhishek Madankar (ETC)', role: 'Co-Conveyor', image: 'path_to_image11.jpg' }, // no image found
-    { name: 'Prof. R. Ponmalar (CSE)', role: 'Co-Conveyor', image: 'path_to_image11.jpg' }, // no image found
+    { name: 'Prof. Abhishek Madankar (ETC)', role: 'Co-Conveyor', image: 'coConveyors/AbhishekMadankar.jpeg' },
+    { name: 'Prof. R. Ponmalar (CSE)', role: 'Co-Conveyor', image: 'coConveyors/Rponmalar.jpg' },
   ];
 
   return (

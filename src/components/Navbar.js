@@ -16,13 +16,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white fixed w-full z-10">
+    <nav className="bg-blue-500 text-white fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-2">
         {/* Navbar Title */}
         <div
-          className="text-xl font-bold cursor-pointer"
-          onClick={() => scrollToSection('home')}
-        >
+          className="flex items-left text-xl font-bold cursor-pointer"
+          onClick={() => scrollToSection('home')} >
+          <img
+            src='logos/pratikrutiLogo.png'
+            alt="Pratikruti-2025"
+            className="h-12 w-auto px-2"
+          />
           <img
             src='logos/pratikruti.png'
             alt="Pratikruti-2025"
