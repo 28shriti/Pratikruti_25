@@ -22,7 +22,7 @@ const Home = () => {
     >
       {/* Top Section: Three Logos */}
       <div className=" w-full flex flex-row justify-around items-center space-y-4 md:space-y-0 md:space-x-6 mb-4 mt-24">
-        <img src="/logos/ycceLogo.png" alt="YCCE Logo" className="w-24 h-24 md:w-52 md:h-52" />
+        <img src="/logos/ycceLogo.png" alt="YCCE Logo" className="w-28 h-28 md:w-52 md:h-52 mt-5" />
         <img src="/logos/rubyJublieeCelebrationLogo.png" alt="Ruby Jubliee Celebration Logo" className="w-32 h-32 md:w-60 md:h-60" />
         <img src="/logos/megheGroupLogo.png" alt="Meghe Group Logo" className="w-24 h-24 md:w-52 md:h-52" />
       </div>
