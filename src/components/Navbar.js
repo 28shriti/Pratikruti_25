@@ -43,12 +43,12 @@ const Navbar = () => {
           >
             Home
           </button>
-          {/* <button
+          <button
             className="hover:text-gray-300"
             onClick={() => scrollToSection('about')}
           >
             About
-          </button> */}
+          </button>
           <button
             className="hover:text-gray-300"
             onClick={() => scrollToSection('schedule')}
@@ -124,12 +124,12 @@ const Navbar = () => {
             >
               Home
             </button>
-            {/* <button
+            <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('about')}
             >
               About
-            </button> */}
+            </button>
             <button
               className="block text-lg px-4 py-2 hover:text-gray-300"
               onClick={() => scrollToSection('schedule')}

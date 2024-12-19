@@ -25,7 +25,7 @@ const Footer = () => (
         <div className="contact text-sm md:text-base w-full md:w-1/2 lg:w-1/3 px-2">
           <div className="locTitle font-bold pb-5 text-lg md:text-2xl">Contact</div>
           <div className="locBody mt-2 space-y-5">
-            <i class="fa-solid fa-phone"></i> Phone: 9764478622 (Prof. A. P. Edlabadkar)<br />
+            <i className="fa-solid fa-phone"></i> Phone: 9764478622 (Prof. A. P. Edlabadkar)<br />
             <i className="fa-solid fa-envelope"></i> Email: pratikruti2025@gmail.com <br />
             <i className="fa-solid fa-globe"></i>  Website: <a href="http://www.pratikruti.in" target="_blank" rel="noopener noreferrer">www.pratikruti.in</a>
           </div>

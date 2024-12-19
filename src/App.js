@@ -6,6 +6,7 @@ import Schedule from './components/Schedule';
 import Registration from './components/Registration';
 import TeamDetails from './components/TeamDetails';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import About from './components/About';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <About />
       <TeamDetails />
       <Schedule />
       <Registration />
