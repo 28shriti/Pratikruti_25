@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer id='contact' className="bg-gray-900 text-white text-center py-4 min-h-[150px] max-h-auto w-full">
+  <footer id='contact' className="bg-[#2E5077] text-white text-center py-4 min-h-[150px] max-h-auto w-full">
     <div className="container mx-auto px-4 ">
 
       <div className="flex flex-col md:flex-row justify-around items-start py-10 space-y-6 md:space-y-0">
