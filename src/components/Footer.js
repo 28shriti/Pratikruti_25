@@ -30,6 +30,9 @@ const Footer = () => (
             <i className="fa-solid fa-envelope"></i> Email: pratikruti2025@gmail.com <br />
             <i className="fa-solid fa-globe"></i>  Website: <a href="http://www.pratikruti.in" target="_blank" rel="noopener noreferrer">www.pratikruti.in</a>
           </div>
+          <div className="contribution mt-10 text-sm">
+          Designed and Developed by <br /> <a href="https://www.linkedin.com/in/shriti-nandanwar-ba9b06257/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><u>Shriti Nandanwar</u></a> & <a href="https://www.linkedin.com/in/rushikeshmunne/" target="_blank" rel="noopener noreferrer"><u>Rushikesh Munne</u></a>
+        </div>
         </div>
       </div>
       {/* Divider */}

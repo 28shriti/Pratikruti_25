@@ -15,10 +15,10 @@ const Schedule = () => {
           {scheduleItems.map((item, index) => (
             <li
               key={index}
-              className="bg-white shadow-md p-4 rounded-lg flex flex-col sm:flex-row justify-between items-center sm:items-center "
+              className="bg-[#4DA1A9] shadow-lg p-4 rounded-lg flex flex-col sm:flex-row justify-between items-center sm:items-center "
             >
-              <div className="text-xl font-medium text-gray-700 mb-2 sm:mb-0">{item.event}</div>
-              <div className="text-lg text-gray-600">{item.date}</div>
+              <div className="text-xl font-medium text-white mb-2 sm:mb-0">{item.event}</div>
+              <div className="text-lg text-white">{item.date}</div>
             </li>
           ))}
         </ul>
