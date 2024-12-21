@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 const Registration = () => (
   <div id="register" className="bg-gray-100 py-20">
     <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">Registration Details</h2>
@@ -47,6 +49,17 @@ const Registration = () => (
           </li>
         </ul>
       </div>
+    </div>
+        {/* Register Button */}
+        <div className="text-center mt-10">
+      <a
+        href="https://forms.gle/DTq7Te4kmmarSrvS8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block px-8 py-3 text-lg font-semibold text-white bg-[#4DA1A9] rounded-3xl shadow-2xl hover:bg-[#33767c] hover:scale-105 active:bg-[#4DA1A9] focus:outline-4 focus:ring-4 focus:bg-[#2E5077] transition-all duration-300"
+      >
+        Register Now
+      </a>
     </div>
 
     <div className="mt-12 text-center">
