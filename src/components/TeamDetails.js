@@ -5,6 +5,7 @@ const TeamDetails = () => {
     { name: 'Hon. Dattaji Meghe', role: 'Chairman, NYSS', image: '/patrons/dattaji.jpg' },
     { name: 'Hon. Ravi D. Meghe', role: 'Secretary, NYSS', image: '/patrons/ravimeghe.jpg' },
     { name: 'Hon. Sameer Meghe', role: 'Treasurer, NYSS', image: '/patrons/sameermeghe.jpg' },
+    { name: 'Hon. Vrinda Tai Meghe', role: 'Chief Advisor, NYSS', image: '/patrons/vrindatai.jpg' },
     { name: 'Dr. M. M. Ksirsagar', role: 'Technical Director and Advisor', image: '/patrons/ManaliKshirsagar.jpg' },
   ];
 

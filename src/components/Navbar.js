@@ -65,7 +65,7 @@ const Navbar = () => {
             className="hover:text-gray-300"
             onClick={() => scrollToSection('register')}
           >
-            Registeration
+            Registration
           </button>
           <button
             className="hover:text-gray-300"
