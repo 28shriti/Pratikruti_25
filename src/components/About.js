@@ -16,7 +16,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-center justify-center mb-16">
                 <div className="md:w-1/3 mb-8 md:mb-0">
                     <img
-                        src="/logos/Pratikruti_img.jpeg"
+                        src="/logos/ycce-about.webp"
                         alt="About Pratikruti"
                         className="w-full h-auto rounded-lg shadow-lg"
                     />
