@@ -16,7 +16,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-center justify-center mb-16">
                 <div className="md:w-1/3 mb-8 md:mb-0">
                     <img
-                        src="/logos/ycce-about.webp"
+                        src="/logos/Pratikruti_img.jpeg"
                         alt="About Pratikruti"
                         className="w-full h-auto rounded-lg shadow-lg"
                     />
@@ -67,19 +67,18 @@ const About = () => {
                 <h2 className="text-3xl md:text-5xl font-semibold text-Black-200 tracking-wide">About RUBY JUBILEE YEAR</h2>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center mb-16">
-                <div className="md:w-1/3 mb-8 md:mb-0">
+                {/* <div className="md:w-1/3 mb-8 md:mb-0">
                     <img
                         src="/logos/ycce-about.webp"
                         alt="About Ruby Jubilee Year"
                         className="w-full h-auto rounded-lg shadow-lg"
                     />
-                </div>
-                <div className="md:w-1/2 text-left md:pl-8">
+                </div> */}
+                <div className="md:w-full text-left md:px-32">
 
                     <p className="text-base text-black leading-relaxed text-justify mb-4">
                 
                     Yeshwantrao Chauvan College of Engineering Celebrating 40 Years of Excellence in Engineering Education.<br />
-
                     This year marks a monumental milestone as we celebrate 40 years of excellence in engineering education.
                     With four decades of commitment to fostering innovation, nurturing talent, and driving impactful engineering solutions, 
                     YCCE has solidified its reputation as a leading institution in engineering and technology.<br/><br/>
