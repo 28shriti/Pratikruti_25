@@ -11,6 +11,7 @@ const Footer = () => (
           <div className="venueBody mt-2 space-y-5">
           <i className="fa-solid fa-location-dot"></i> YCCE, Nagpur, Maharashtra, India - 441 110
             <iframe
+              title='google maps'
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1861.218099781244!2d78.97765083859485!3d21.095168945142724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4952117eaac51%3A0x6d8277793eb63d6a!2sYeshwantrao%20Chavan%20College%20of%20Engineering%20(YCCE)%2C%20Nagpur!5e0!3m2!1sen!2sin!4v1734627176455!5m2!1sen!2sin"
               width="100%"  // Makes it responsive
               height="150"  // Adjust the height as needed
@@ -32,9 +33,9 @@ const Footer = () => (
         </div>
       </div>
       {/* Divider */}
-      <hr className="border-gray-600" />
+      <hr className="border-gray-800" />
       {/* Copyright */}
-      <p className="text-xs md:text-sm lg:text-base mt-4">
+      <p className="text-md lg:text-lg mt-4">
         © {new Date().getFullYear()} Pratikruti-2025. All Rights Reserved.
       </p>
     </div>

@@ -17,7 +17,7 @@ const About = () => {
                 <div className="md:w-1/3 mb-8 md:mb-0">
                     <img
                         src="/logos/Pratikruti_img.jpeg"
-                        alt="About Image"
+                        alt="About Pratikruti"
                         className="w-full h-auto rounded-lg shadow-lg"
                     />
                 </div>
@@ -70,7 +70,7 @@ const About = () => {
                 <div className="md:w-1/3 mb-8 md:mb-0">
                     <img
                         src="/logos/ycce-about.webp"
-                        alt="About YCCE"
+                        alt="About Ruby Jubilee Year"
                         className="w-full h-auto rounded-lg shadow-lg"
                     />
                 </div>
