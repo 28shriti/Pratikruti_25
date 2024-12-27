@@ -18,7 +18,19 @@ const Registration = () => (
         </p>
       </div>
 
-      {/* Group Details */}
+
+            {/* Reg Details */}
+            <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
+        <h3 className="text-2xl font-semibold text-gray-700 mb-4">Details</h3>
+        <ol className="list-decimal text-gray-600 text-lg text-start px-2">
+          <li className="mb-2">Group consist of 4 members </li>
+          <li className="mb-2">Entry fee include kit Icard and lunch</li>
+          <li className="mb-2">Additional members 200 per members</li>
+        </ol>
+      </div>
+
+
+            {/* Group Details */}
       <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
         <h3 className="text-2xl font-semibold text-gray-700 mb-4">Group</h3>
         <ol className="list-decimal text-gray-600 text-lg text-start px-2">
@@ -50,6 +62,7 @@ const Registration = () => (
         </ul>
       </div>
     </div>
+
         {/* Register Button */}
         <div className="text-center mt-10">
       <a
