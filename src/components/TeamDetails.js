@@ -11,8 +11,9 @@ const TeamDetails = () => {
 
   const organizers = [
     { name: 'Dr. U. P. Waghe', role: 'Organizer', image: '/organizers/upwaghe.png' },
-    { name: 'Dr. S. S. Chaudhari', role: 'Project Coordinator', image: '/organizers/sharadChaudhari.jpg' },
     { name: 'Dr. J. P. Giri', role: 'Organizer', image: '/organizers/jayantGiri.png' },
+    { name: 'Dr. S. S. Chaudhari', role: 'Project Coordinator', image: '/organizers/sharadChaudhari.jpg' },
+    
   ];
 
   const conveyors = [
