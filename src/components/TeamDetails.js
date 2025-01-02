@@ -145,7 +145,7 @@ const TeamDetails = () => {
 
       {/* Technical convenors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Technical convenors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Technical Convenors</h3>
         <div className="flex flex-wrap justify-center gap-8">
           {technicalconvenors.map((technicalConveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
@@ -163,7 +163,7 @@ const TeamDetails = () => {
 
       {/* Co-convenors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Co-convenors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Co-Convenors</h3>
         <div className="flex flex-wrap justify-center gap-8">
           {coconvenors.map((coConveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
