@@ -16,9 +16,9 @@ const TeamDetails = () => {
     
   ];
 
-  const conveyors = [
-    { name: 'Dr. S. G. Mahakalkar', role: 'Conveyor', image: '/conveyors/sachineMahakalkar.jpeg' },
-    { name: 'Dr. R. B. Chadge', role: 'Conveyor', image: '/conveyors/rajkumarChadge.jpg' },
+  const convenors = [
+    { name: 'Dr. S. G. Mahakalkar', role: 'Convenor', image: '/convenors/sachineMahakalkar.jpeg' },
+    { name: 'Dr. R. B. Chadge', role: 'Convenor', image: '/convenors/rajkumarChadge.jpg' },
   ];
 
   const publicityChair = [
@@ -31,21 +31,21 @@ const TeamDetails = () => {
   
   ];
 
-  const technicalConveyors = [
-    { name: 'Prof. A. R. Narkhede', role: 'Technical Conveyor', image: 'techConveyors/alokNarkhede.jpg' },
-    { name: 'Prof. R. V. Adkane', role: 'Technical Conveyor', image: 'techConveyors/rakeshAdakane.jpg' },
-    { name: 'Prof. P. A. Hatwalne', role: 'Technical Conveyor', image: 'techConveyors/prasadHatwalne.png' },
+  const technicalconvenors = [
+    { name: 'Prof. A. R. Narkhede', role: 'Technical Convenor', image: 'techConvenors/alokNarkhede.jpg' },
+    { name: 'Prof. R. V. Adkane', role: 'Technical Convenor', image: 'techConvenors/rakeshAdakane.jpg' },
+    { name: 'Prof. P. A. Hatwalne', role: 'Technical Convenor', image: 'techConvenors/prasadHatwalne.png' },
   ];
 
-  const coConveyors = [
-    { name: 'Prof. Y. Y. Nandurkar (ME)', role: 'Co-Conveyor', image: 'coConveyors/yogeshNandurkar.jpg' },
-    { name: 'Prof. Sagar Dhengare (CE)', role: 'Co-Conveyor', image: 'coConveyors/sagarDhengare.jpg' },
-    { name: 'Prof. Ajay Thatere (EE)', role: 'Co-Conveyor', image: 'coConveyors/ajayThatere.jpg' },
-    { name: 'Prof. Atul Lilhare (EL)', role: 'Co-Conveyor', image: 'coConveyors/atulLilhare.jpg' },
-    { name: 'Prof. Nilesh U. Sambe (CT)', role: 'Co-Conveyor', image: 'coConveyors/nileshSambhe.jpg' },
-    { name: 'Dr. Priyanka Jaiswal (IT)', role: 'Co-Conveyor', image: 'coConveyors/priyankaJaiswal.jpg' },
-    { name: 'Prof. Abhishek Madankar (ETC)', role: 'Co-Conveyor', image: 'coConveyors/AbhishekMadankar.jpeg' },
-    { name: 'Prof. R. Ponmalar (CSE)', role: 'Co-Conveyor', image: 'coConveyors/Rponmalar.jpg' },
+  const coconvenors = [
+    { name: 'Prof. Y. Y. Nandurkar (ME)', role: 'Co-Convenor', image: 'coConvenors/yogeshNandurkar.jpg' },
+    { name: 'Prof. Sagar Dhengare (CE)', role: 'Co-Convenor', image: 'coConvenors/sagarDhengare.jpg' },
+    { name: 'Prof. Ajay Thatere (EE)', role: 'Co-Convenor', image: 'coConvenors/ajayThatere.jpg' },
+    { name: 'Prof. Atul Lilhare (EL)', role: 'Co-Convenor', image: 'coConvenors/atulLilhare.jpg' },
+    { name: 'Prof. Nilesh U. Sambhe (CT)', role: 'Co-Convenor', image: 'coConvenors/nileshSambhe.jpg' },
+    { name: 'Dr. Priyanka Jaiswal (IT)', role: 'Co-Convenor', image: 'coConvenors/priyankaJaiswal.jpg' },
+    { name: 'Prof. Abhishek Madankar (ETC)', role: 'Co-Convenor', image: 'coConvenors/AbhishekMadankar.jpeg' },
+    { name: 'Prof. R. Ponmalar (CSE)', role: 'Co-Convenor', image: 'coConvenors/Rponmalar.jpg' },
   ];
 
   return (
@@ -88,11 +88,11 @@ const TeamDetails = () => {
         </div>
       </div>
 
-      {/* Conveyors Section */}
+      {/* convenors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Conveyors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Convenors</h3>
         <div className="flex flex-wrap justify-center gap-8">
-          {conveyors.map((conveyor, index) => (
+          {convenors.map((conveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
               <img
                 src={conveyor.image}
@@ -144,11 +144,11 @@ const TeamDetails = () => {
         </div>
       </div>
 
-      {/* Technical Conveyors Section */}
+      {/* Technical convenors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Technical Conveyors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Technical Convenors</h3>
         <div className="flex flex-wrap justify-center gap-8">
-          {technicalConveyors.map((technicalConveyor, index) => (
+          {technicalconvenors.map((technicalConveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
               <img
                 src={technicalConveyor.image}
@@ -162,11 +162,11 @@ const TeamDetails = () => {
         </div>
       </div>
 
-      {/* Co-Conveyors Section */}
+      {/* Co-convenors Section */}
       <div className="text-center mb-12">
-        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Co-Conveyors</h3>
+        <h3 className="text-3xl font-semibold mb-4 md:mb-8">Co-Convenors</h3>
         <div className="flex flex-wrap justify-center gap-8">
-          {coConveyors.map((coConveyor, index) => (
+          {coconvenors.map((coConveyor, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-60">
               <img
                 src={coConveyor.image}
