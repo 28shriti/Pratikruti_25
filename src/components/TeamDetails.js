@@ -49,7 +49,7 @@ const TeamDetails = () => {
   ];
 
   return (
-    <div id="team-details" className="bg-gray-200 py-8 md:py-20">
+    <div id="team-details" className="bg-gray-100 py-8 md:py-20">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">Organizing Committee</h2>
 
       {/* Patrons Section */}
